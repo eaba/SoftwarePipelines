@@ -28,6 +28,7 @@ From the Book by Cory Isaacson: Software Pipelines and SOA:
 > parallel computing and makes it possible to use the power of the new CPUs for
 > business applications.
 
+
 ##It is a new approach to the problem, so what is the problem?
 
 Improving application performance!!
