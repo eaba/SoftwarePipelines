@@ -36,10 +36,10 @@ Before now, there have been many solutions, like multi-process, multi-threading,
 for improving application performance. With Akka.Net we have the tool to acheive Software Pipelines Architecture, 
 and "to create a parallel software environment specifically for business applications".
 
-"The architecture is highly scalable and flexible. It executes business services independent of location, and in such a way as to
-maximize throughput on available computing resources, while easily meeting a vast array of complex business application requirements.
-You can easily scale your application to any size, you can maximize your resources, and best of all, you can do all this and still
-maintain critical business transaction and integrity requirements."
+> The architecture is highly scalable and flexible. It executes business services independent of location, and in such a way as to
+> maximize throughput on available computing resources, while easily meeting a vast array of complex business application requirements.
+> You can easily scale your application to any size, you can maximize your resources, and best of all, you can do all this and still
+> maintain critical business transaction and integrity requirements.
 
 So my duty is to show you how you can, using Akka.Net, create a Pipeline Architecture for your application following the guidelines as written by Cory Isaacson.
 Get the book if you can!
