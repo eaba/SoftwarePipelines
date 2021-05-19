@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace PipelineLib
 {
+    //kilometer app
     public class Kilometers
     {
-        
-        public Kilometers()
-        {
-
-        }
         public OutputData CalculateSpeed(InputData inputData)
         {
             var timeSec = (inputData.Hour * 3600) + (inputData.Min * 60) + inputData.Sec;
