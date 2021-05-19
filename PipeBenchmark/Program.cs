@@ -1,5 +1,6 @@
 ﻿using System;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Columns;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Engines;
@@ -31,7 +32,8 @@ namespace PipeBenchmark
     {
         public MicroBenchmarkConfig()
         {
-            this.AddDiagnoser();
+            AddDiagnoser();
+            AddColumn(StatisticColumn.AllStatistics);
         }
     }
 }
