@@ -32,7 +32,7 @@ namespace PipeBenchmark
     {
         public MicroBenchmarkConfig()
         {
-            AddDiagnoser();
+            AddDiagnoser(MemoryDiagnoser.Default);
             AddColumn(StatisticColumn.AllStatistics);
         }
     }
