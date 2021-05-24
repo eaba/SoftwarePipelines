@@ -22,7 +22,7 @@ namespace PipeBenchmark
     public class CalculateSpeedBenchMark
     {
         [Benchmark]
-        public void Calculate_Speed()
+        public void Business_Logic_Calculate_Speed()
         {
             var cal = new Kilometers().CalculateSpeed(new InputData(DateTime.Now.Ticks, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second));
         
