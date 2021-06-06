@@ -17,7 +17,7 @@ namespace PipeBenchmark
         static void Main(string[] args)
         {
             var summary = BenchmarkRunner.Run<CalculateSpeedBenchMark>();
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
     [Config(typeof(MicroBenchmarkConfig))]
