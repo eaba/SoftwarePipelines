@@ -50,16 +50,18 @@ namespace PipeBenchmark
         public void Measure_KilometrePipeline_TPS()
         {
             _pipe.Tell(new InputData(DateTime.Now.Ticks, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second));
-            var take = _queue.Take();
-            Console.WriteLine(take);
+            _ = _queue.Take();
+            //var take = _queue.Take();
+            //Console.WriteLine(take);
         }
 
         [Benchmark]
         public void Measure_Distributor_TPS()
         {
             _distributor.Tell(new InputData(DateTime.Now.Ticks, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second));
-            var take = _queue.Take();
-            Console.WriteLine(take);
+            _ = _queue.Take();
+            //var take = _queue.Take();
+            //Console.WriteLine(take);
         }
     }
     public class MicroBenchmarkConfig : ManualConfig
